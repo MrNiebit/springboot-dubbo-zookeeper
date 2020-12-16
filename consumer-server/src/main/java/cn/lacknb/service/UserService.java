@@ -10,8 +10,8 @@ public class UserService {
     @DubboReference
     HelloService helloService;
 
-    public void test () {
-        System.out.println("收到的 => " + helloService.sayHello());
+    public String test () {
+        return "收到的 => " + helloService.sayHello();
     }
 
 

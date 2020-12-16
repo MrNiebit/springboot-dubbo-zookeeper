@@ -36,6 +36,8 @@ mvn clean package -Dmaven.test.skip=true
 
 `java -jar xxxx.jar`
 
+> 进入	dubbo图形化监控平台的地址：
+> `http://localhost:7001`
 
 
 ## 项目整合测试
